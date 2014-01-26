@@ -1,0 +1,9 @@
+[user]
+	name = neilmcguiggan
+	email = neil@mcguiggan.org
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/neil/.gitignore_global

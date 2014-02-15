@@ -9,14 +9,16 @@ alias grep="egrep --color"
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
+# Python 2.7
+export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 
-#elastic beanstalk command line tools
+# elastic beanstalk command line tools
 export PATH="$PATH:/Users/neil/dev/frameworks/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7"
 
+# android SDK
+export PATH="$PATH:/Users/neil/dev/frameworks/adt/sdk/platform-tools:/Users/neil/dev/frameworks/adt/sdk/tools"
+
+# git autocomplete script
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi

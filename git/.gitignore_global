@@ -57,3 +57,8 @@ DerivedData
 
 # CocoaPods
 Pods
+
+# IntelliJ
+.idea/
+*.iml
+local.properties

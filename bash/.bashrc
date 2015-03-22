@@ -5,10 +5,13 @@ export EDITOR=vim
 
 umask 022
 
+# show all files
 alias ls="ls -lahG"
+
+# highlight occurrences of search term in grep
 alias grep="egrep --color"
 
-#configure PATH
+# configure PATH
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source ~/.custom_locations.sh
 

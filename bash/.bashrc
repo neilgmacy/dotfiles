@@ -8,7 +8,9 @@ umask 022
 alias ls="ls -lahG"
 alias grep="egrep --color"
 
+#configure PATH
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+source ~/.custom_locations.sh
 
 # git autocomplete script
 source ~/.git-completion.bash

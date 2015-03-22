@@ -1,11 +1,11 @@
 syntax on
-set autoindent
+set smartindent
 set nu
 set showcmd
 set ruler
 set confirm
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set background=dark
 

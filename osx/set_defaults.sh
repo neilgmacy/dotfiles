@@ -39,7 +39,7 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Empty Trash securely by default
 defaults write com.apple.finder EmptyTrashSecurely -bool true
 
-# Show indicator lights for open applications in the Dock
+# Don't show indicator lights for open applications in the Dock
 defaults write com.apple.dock show-process-indicators -bool false
 
 # Disable Dashboard

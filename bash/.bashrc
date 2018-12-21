@@ -8,6 +8,10 @@ umask 022
 # show all files
 alias ls="ls -lahG"
 
+# update Homebrew and Cocoapods
+alias brewup="brew update && brew upgrade && brew cleanup"
+alias podup="pod repo update && pod update"
+
 # highlight occurrences of search term in grep
 alias grep="egrep --color"
 

@@ -1,9 +1,22 @@
 [user]
-	name = neilmcguiggan
-	email = neil@mcguiggan.org
+	name = Neil Macy
+	email = neil@neilmacy.co.uk
 [credential]
 	helper = osxkeychain
 [color]
 	ui = true
 [core]
 	excludesfile = /Users/neil/.gitignore_global
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[merge]
+	tool = p4mergetool
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$LOCAL $PWD/$REMOTE $PWD/$MERGED
+[diff]
+	tool = p4mergetool
+[difftool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE

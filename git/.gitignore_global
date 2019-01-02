@@ -64,3 +64,6 @@ Pods
 local.properties
 bin/
 out/
+
+# Git
+*.orig

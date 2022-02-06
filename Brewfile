@@ -15,8 +15,6 @@ mas "Todoist: To-Do List & Tasks", id: 585829637
 cask "1Password"
 cask "alfred"
 cask "font-fira-code"
-cask "font-source-code-pro"
-cask "fastlane"
 cask "obsidian"
 
 brew "imagemagick"
